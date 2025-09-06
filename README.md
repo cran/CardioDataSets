@@ -16,7 +16,13 @@ install.packages("CardioDataSets")
 
 ## Usage
 
-After installation, load the `CardioDataSets` package and start exploring and using its functions and  datasets.
+After installation, load the `CardioDataSets` package and start exploring its **datasets** and using its built-in function.
+
+```R
+
+library("CardioDataSets")
+
+```
 
 ## Dataset Suffixes
 
@@ -52,7 +58,7 @@ library(CardioDataSets)
 
 # List all datasets in the package
 
-view_datasets()
+view_datasets_CardioDataSets()
 
 # Load dataset
 

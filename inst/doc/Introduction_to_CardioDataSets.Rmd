@@ -1,8 +1,8 @@
 ---
-title: "Introduction_to_CardioDataSets"
+title: "CardioDataSets: A Comprehensive Collection of Cardiovascular and Heart Disease Datasets"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Introduction_to_CardioDataSets}
+  %\VignetteIndexEntry{CardioDataSets: A Comprehensive Collection of Cardiovascular and Heart Disease Datasets}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -27,6 +27,16 @@ The `CardioDataSets` package offers a diverse collection of datasets focused on 
 The package is designed for researchers, clinicians, epidemiologists, and data scientists. It includes clinical, epidemiological, simulated, and real-world datasets that enable exploration of disease progression, treatment efficacy, cardiovascular risk, and patient outcomes across various populations and contexts.
 
 This package supports the analysis and understanding of cardiovascular risk, treatment efficacy, and disease progression across various patient cohorts and clinical contexts.
+
+## All datasets within CardioDataSets
+
+```{r CardioDataSets-datasets,echo = TRUE,message = FALSE,warning = FALSE,results = 'markup'}
+
+
+view_datasets_CardioDataSets()
+
+
+```
 
 ## Dataset Suffixes
 

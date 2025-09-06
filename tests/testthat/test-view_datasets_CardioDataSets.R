@@ -15,20 +15,20 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-# view_datasets()  function
+# view_datasets_CardioDataSets()  function
 
 
 library(testthat)
 library(CardioDataSets)
 
-test_that("view_datasets works when package is loaded", {
-  result <- view_datasets()
+test_that("view_datasets_CardioDataSets works when package is loaded", {
+  result <- view_datasets_CardioDataSets()
   expect_type(result, "character")
   expect_true(length(result) > 0)
 })
 
-test_that("view_datasets prints correct message", {
-  output <- capture_messages(view_datasets())
+test_that("view_datasets_CardioDataSets prints correct message", {
+  output <- capture_messages(view_datasets_CardioDataSets())
   expect_match(
     output[1],
     "Datasets available in the 'CardioDataSets' package:",
@@ -36,8 +36,8 @@ test_that("view_datasets prints correct message", {
   )
 })
 
-test_that("view_datasets returns expected datasets", {
-  datasets <- view_datasets()
+test_that("view_datasets_CardioDataSets returns expected datasets", {
+  datasets <- view_datasets_CardioDataSets()
   expected_datasets <- c(
     "heartdisease_tbl_df",
     "hfPrevention_mtc_network",

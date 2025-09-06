@@ -26,10 +26,10 @@
 #' @examples
 #' if (requireNamespace("CardioDataSets", quietly = TRUE)) {
 #'   library(CardioDataSets)
-#'   view_datasets()
+#'   view_datasets_CardioDataSets()
 #' }
 #' @export
-view_datasets <- function() {
+view_datasets_CardioDataSets <- function() {
   # Check if the package is loaded
   if (!"CardioDataSets" %in% .packages()) {
     stop("The 'CardioDataSets' package must be loaded to view its datasets.")

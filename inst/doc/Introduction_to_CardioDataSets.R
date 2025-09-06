@@ -9,6 +9,13 @@ library(CardioDataSets)
 library(dplyr)
 library(ggplot2)
 
+## ----CardioDataSets-datasets,echo = TRUE,message = FALSE,warning = FALSE,results = 'markup'----
+
+
+view_datasets_CardioDataSets()
+
+
+
 ## ----heart-disease-plot, fig.width=6, fig.height=4, out.width="100%"----------
 
 # Age density plot by heart disease status and sex
